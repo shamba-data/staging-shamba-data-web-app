@@ -8,5 +8,5 @@ app.use(express.json)
 
 const PORT = 8000
 
-app.listen(8000,()=> console.log(`listening on port:${PORT}`) )
-//routing
+app.listen(8000, ()=> console.log(`listening on port:${PORT}`) )
+
