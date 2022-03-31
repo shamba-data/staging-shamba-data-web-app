@@ -3,7 +3,8 @@ import {Box,Text, Container, Image, Heading, Button} from "@chakra-ui/react";
 const VoiceAssistant = () => {
   return (
     <>
-      <Box w="100%" 
+      <Box 
+       w="100%" 
        h="700" 
        backgroundImage="img/unsplash_kZ4G8x-aipo.jpg" 
        backgroundSize="cover"
