@@ -22,7 +22,7 @@ const ProductFeatures = () => {
               Shamba data uses Satellite data to help farmers maximize both crop yield and profits. To achieve this, Shamba Data voice assistant is powered by Mozilla `Sauti ya Jamii` to empower Rice and Maize farmers in Tanzania. 
             </Text>
           </Box>
-        <Container maxW="container.xl" mt={48}>
+        <Container maxW="container.xl" mt={36}>
             <Grid templateColumns="repeat(3, 1fr)" gap="52" mt={20}>
               <Box>
                 <HStack spacing="16">
