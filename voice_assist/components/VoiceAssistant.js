@@ -6,12 +6,13 @@ const VoiceAssistant = () => {
       <Box w="100%" 
        h="700" 
        backgroundImage="img/unsplash_kZ4G8x-aipo.jpg" 
-       backgroundSize="cover" 
+       backgroundSize="cover"
+       boxShadow="lg"
        d="flex" alignItems="center" 
        py="20" flexDirection="row">
         <Container maxWidth="container.xl">
           <Box>
-            <Heading mt={-95} as="h2"  size="2xl">
+            <Heading mt={-95} mb={10} as="h2"  size="2xl">
              <Text 
               align="center"
               fontStyle="normal"
@@ -21,12 +22,12 @@ const VoiceAssistant = () => {
              </Text>
             </Heading>
           </Box>
-          <Box mt={125} >
+          <Box mt={125}>
             <Text 
               align="center"
               fontFamily="Quicksand"
               fontStyle="normal"  
-              color="#f5f7f5" 
+              color="#ffff" 
               fontWeight="400"
               fontSize="3xl"
               textShadow="0px 4px 4px rgba(0, 0, 0, 0.25)"
@@ -35,7 +36,8 @@ const VoiceAssistant = () => {
             </Text>
           </Box>
           <Box mt={10} align="center">
-             <Button  
+             <Button
+              fontFamily="QuickSand" 
               variant="outline" 
               size="lg"
               transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
