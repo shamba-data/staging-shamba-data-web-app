@@ -11,7 +11,7 @@ import Timeline from '../components/Timeline'
 import TimelineSlideShow from '../components/TimelineSlideShow'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div >
      
        <Navbar/>
       <VoiceAssistant/>
