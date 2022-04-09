@@ -11,7 +11,7 @@ const Navbar = () => {
             <Text fontSize="3xl" color="green">Shamba Data</Text>
           </Box>
           <ButtonGroup spacing="6">
-            <Button  colorScheme="green" fontSize="sm" variant="solid">Sign Up</Button>
+            <Button  colorScheme="green" fontSize="sm" variant="solid">Sign Up Now</Button>
           </ButtonGroup>
         </Box>
     </header>
