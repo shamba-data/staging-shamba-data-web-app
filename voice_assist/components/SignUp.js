@@ -29,7 +29,7 @@ const SignUp = () => {
               fontStyle="normal"
               letterSpacing="wide" 
               color="#f5f7f5">
-                Ready to be part our the Family ?
+                Ready to be part our the Family?
              </Text>
             </Heading>
           </Box>

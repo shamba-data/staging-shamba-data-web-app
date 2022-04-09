@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
     <header>
-      <Box boxShadow="lg" w="100%" d="flex" alignItems="center" mt="2" mb="1.5" p={2} justifyContent="space-between">
+      <Box boxShadow="md" w="100%" d="flex" alignItems="center" mt="2" mb="1.5" p={2} justifyContent="space-between">
           <Box>
             <Text fontSize="3xl" color="green">Shamba Data</Text>
           </Box>
